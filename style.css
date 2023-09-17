@@ -1,0 +1,30 @@
+#canvas
+{
+    width: 100%;
+    border: 1px solid #000;
+}
+
+#buttons
+{
+    text-align: center;
+    display: none;
+}
+button
+{
+    width: 150px;
+    padding: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin: 4px;
+    cursor: pointer;
+    line-height: 4;
+}
+
+@media (max-width: 720px)
+{
+    #buttons
+    {
+        display: block;
+        padding: 10px;
+    }
+}
